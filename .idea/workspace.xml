@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6636a2-534c-45cf-950a-74d60375a5f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/startApache.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/startApache.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/startMysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/startMysql.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/moodle36/sessions/sess_29e7cdebcb6dcb554d1df36e746ae315" beforeDir="false" afterPath="$PROJECT_DIR$/data/moodle36/sessions/sess_29e7cdebcb6dcb554d1df36e746ae315" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mysql56/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql56/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mysql56/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql56/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mysql56/moodle36/mdl_logstore_standard_log.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql56/moodle36/mdl_logstore_standard_log.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mysql56/moodle36/mdl_sessions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql56/moodle36/mdl_sessions.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/apache_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/apache_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mysql_error_log.err" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mysql_error_log.err" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htdocs/moodle36/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/moodle36/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,12 +27,30 @@
         <entry file="file://$PROJECT_DIR$/bin/startApache.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startMysql.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/htdocs/moodle36/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stop.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/stop.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="startMysql.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/startMysql.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -51,6 +61,17 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$PROJECT_DIR$</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/home/latfish/moodle/moodle</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -59,7 +80,9 @@
       <list>
         <option value="$PROJECT_DIR$/bin/start.sh" />
         <option value="$PROJECT_DIR$/bin/startApache.sh" />
+        <option value="$PROJECT_DIR$/bin/stop.sh" />
         <option value="$PROJECT_DIR$/bin/startMysql.sh" />
+        <option value="$PROJECT_DIR$/htdocs/moodle36/.gitignore" />
       </list>
     </option>
   </component>
@@ -96,6 +119,17 @@
               <item name="MAMP" type="b2602c69:ProjectViewProjectNode" />
               <item name="MAMP" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MAMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MAMP" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MAMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MAMP" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="moodle36" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MAMP" type="b2602c69:ProjectViewProjectNode" />
@@ -143,30 +177,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554281759440</updated>
-      <workItem from="1554281762268" duration="1592000" />
+      <workItem from="1554281762268" duration="2168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1592000" />
+    <option name="totallyTimeSpent" value="2168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -182,6 +216,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Library/bin/mysqld_safe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9189" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/bin/apachectl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/stop.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -189,22 +238,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/startApache.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Library/bin/mysqld_safe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9189" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/startMysql.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/startApache.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/moodle36/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
