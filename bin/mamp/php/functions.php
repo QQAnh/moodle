@@ -142,7 +142,7 @@ function getPHPCLIPath() {
 	}
 	else
 	{
-		$path = "/Applications/MAMP/bin/php";
+		$path = "/home/latfish/moodle/moodle/bin/php";
 	}
 	
     $folder = "";

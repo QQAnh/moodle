@@ -27,7 +27,7 @@ archive_version=0.19.6
 
 # Set variables
 # - gettext_datadir     directory where the data files are stored.
-prefix="/Applications/MAMP/Library"
+prefix="/home/latfish/moodle/moodle/Library"
 datarootdir="${prefix}/share"
 : ${gettext_datadir="${datarootdir}/gettext"}
 : ${AUTOM4TE=autom4te}

@@ -1,3 +1,3 @@
 # /bin/sh
-/Applications/MAMP/bin/startMysql.sh
-/Applications/MAMP/bin/startApache.sh
+/home/latfish/moodle/moodle/bin/startMysql.sh
+/home/latfish/moodle/moodle/bin/startApache.sh

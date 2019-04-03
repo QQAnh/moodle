@@ -12,11 +12,11 @@
 LC_ALL=C
 export LC_ALL
 
-prefix="/Applications/MAMP/Library"
-exec_prefix="/Applications/MAMP/Library"
+prefix="/home/latfish/moodle/moodle/Library"
+exec_prefix="/home/latfish/moodle/moodle/Library"
 exec_prefix_set="no"
-includedir="/Applications/MAMP/Library/include"
-libdir="/Applications/MAMP/Library/lib"
+includedir="/home/latfish/moodle/moodle/Library/include"
+libdir="/home/latfish/moodle/moodle/Library/lib"
 
 usage()
 {
@@ -141,7 +141,7 @@ fi
 
 if test "$echo_libs" = "yes" ; then
   libs="-lfreetype"
-  staticlibs="-lfreetype -L/Applications/MAMP/Library/lib -lz -lbz2 -L/Applications/MAMP/Library/lib -lpng16 -lz"
+  staticlibs="-lfreetype -L/home/latfish/moodle/moodle/Library/lib -lz -lbz2 -L/home/latfish/moodle/moodle/Library/lib -lpng16 -lz"
   if test "$show_static" = "yes" ; then
     libs="$staticlibs"
   fi

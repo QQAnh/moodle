@@ -3,7 +3,7 @@
 # Copyright (C) Index Data
 # See the file LICENSE for details.
 
-prefix="/Applications/MAMP/Library"
+prefix="/home/latfish/moodle/moodle/Library"
 exec_prefix="${prefix}"
 libdir="${exec_prefix}/lib"
 includedir="${prefix}/include"
@@ -16,12 +16,12 @@ echo_lalibs=no
 echo_comp=no
 src_root="/Users/adb/Desktop/build-Ordner/yaz-5.16.0"
 build_root="/Users/adb/Desktop/build-Ordner/yaz-5.16.0"
-ICU_LIBS="-Wl,-rpath,/Applications/MAMP/Library/lib -L/Applications/MAMP/Library/lib -licui18n -licuuc -licudata  "
-ICU_CPPFLAGS="-I/Applications/MAMP/Library/include  -D YAZ_HAVE_ICU=1"
+ICU_LIBS="-Wl,-rpath,/home/latfish/moodle/moodle/Library/lib -L/home/latfish/moodle/moodle/Library/lib -licui18n -licuuc -licudata  "
+ICU_CPPFLAGS="-I/home/latfish/moodle/moodle/Library/include  -D YAZ_HAVE_ICU=1"
 SSL_LIBS=""
-MEMCACHED_LIBS="-L/Applications/MAMP/Library/lib -lmemcached -lmemcachedutil "
+MEMCACHED_LIBS="-L/home/latfish/moodle/moodle/Library/lib -lmemcached -lmemcachedutil "
 HIREDIS_LIBS=""
-LIBS="-L/Applications/MAMP/Library/lib -lexslt -lxslt -lxml2 -lz -lpthread -liconv -lm -lxml2   -lpthread"
+LIBS="-L/home/latfish/moodle/moodle/Library/lib -lexslt -lxslt -lxml2 -lz -lpthread -liconv -lm -lxml2   -lpthread"
 VERSION=5.16.0
 YAZVERSION=$VERSION
 VERSION_SHA1=e3fd23ffc6ce9cc4d06177cb4c083d27dc69cc26
@@ -116,7 +116,7 @@ if test "$lib_icu" = "yes"; then
     YAZLIB="-lyaz_icu $YAZLIB"
 fi
 
-YAZINC=" -DYAZ_POSIX_THREADS=1 -DYAZ_HAVE_XML2=1 -DYAZ_HAVE_XSLT=1 -DYAZ_HAVE_EXSLT=1 -I/Applications/MAMP/Library/include -I/Applications/MAMP/Library/include/libxml2 -I/Applications/MAMP/Library/include "
+YAZINC=" -DYAZ_POSIX_THREADS=1 -DYAZ_HAVE_XML2=1 -DYAZ_HAVE_XSLT=1 -DYAZ_HAVE_EXSLT=1 -I/home/latfish/moodle/moodle/Library/include -I/home/latfish/moodle/moodle/Library/include/libxml2 -I/home/latfish/moodle/moodle/Library/include "
 
 if test "$echo_source" = "yes"; then
     YAZBIN=${build_root}/bin

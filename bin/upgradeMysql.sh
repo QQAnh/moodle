@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/Applications/MAMP/Library/bin/mysql_upgrade -u root -proot --socket=/Applications/MAMP/tmp/mysql/mysql.sock --force --verbose
+/home/latfish/moodle/moodle/Library/bin/mysql_upgrade -u root -proot --socket=/home/latfish/moodle/moodle/tmp/mysql/mysql.sock --force --verbose

@@ -12,7 +12,7 @@ echo "| GIT updater for your local Moodle server"
 echo "+--------------------------------------------+"
 echo
 
-cd /Applications/MAMP/htdocs
+cd /home/latfish/moodle/moodle/htdocs
 
 if ! test -e moodle36/.git ; then
     ## the first git update must get everything including .git

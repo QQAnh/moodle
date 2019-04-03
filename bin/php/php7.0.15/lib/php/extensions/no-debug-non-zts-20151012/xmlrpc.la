@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Applications/MAMP/bin/php/php7.0.15/include/php/ext/xmlrpc/modules'
+libdir='/home/latfish/moodle/moodle/bin/php/php7.0.15/include/php/ext/xmlrpc/modules'

@@ -3,8 +3,8 @@
 # Perl c_rehash script, scan all files in a directory
 # and add symbolic links to their hash values.
 
-my $dir = "/Applications/MAMP/Library/OpenSSL";
-my $prefix = "/Applications/MAMP/Library";
+my $dir = "/home/latfish/moodle/moodle/Library/OpenSSL";
+my $prefix = "/home/latfish/moodle/moodle/Library";
 
 my $openssl = $ENV{OPENSSL} || "openssl";
 my $pwd;

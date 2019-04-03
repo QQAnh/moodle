@@ -41,11 +41,11 @@ ARGV="$@"
 # --------------------                              --------------------
 # 
 # the path to your httpd binary, including options if necessary
-HTTPD='/Applications/MAMP/Library/bin/httpd'
+HTTPD='/home/latfish/moodle/moodle/Library/bin/httpd'
 #
 # pick up any necessary environment variables
-if test -f /Applications/MAMP/Library/bin/envvars; then
-  . /Applications/MAMP/Library/bin/envvars
+if test -f /home/latfish/moodle/moodle/Library/bin/envvars; then
+  . /home/latfish/moodle/moodle/Library/bin/envvars
 fi
 #
 # a command that outputs a formatted text version of the HTML at the

@@ -21,7 +21,7 @@
 #
 ###########################################################################
 
-prefix=/Applications/MAMP/Library
+prefix=/home/latfish/moodle/moodle/Library
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -71,7 +71,7 @@ while test $# -gt 0; do
         ;;
 
     --ca)
-        echo "/Applications/MAMP/Library/OpenSSL/cert.pem"
+        echo "/home/latfish/moodle/moodle/Library/OpenSSL/cert.pem"
         ;;
 
     --cc)
@@ -156,7 +156,7 @@ while test $# -gt 0; do
 
     --static-libs)
         if test "Xyes" != "Xno" ; then
-          echo ${exec_prefix}/lib/libcurl.a -L/Applications/MAMP/Library/lib -arch x86_64 -L/Applications/MAMP/Library/lib -lssl -lcrypto -lssl -lcrypto -lldap -lz
+          echo ${exec_prefix}/lib/libcurl.a -L/home/latfish/moodle/moodle/Library/lib -arch x86_64 -L/home/latfish/moodle/moodle/Library/lib -lssl -lcrypto -lssl -lcrypto -lldap -lz
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1
@@ -164,7 +164,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--prefix=/Applications/MAMP/Library' '--with-ssl=/Applications/MAMP/Library' '--with-zlib=/Applications/MAMP/Library' '--with-libidn=/Applications/MAMP/Library' '--enable-crypto-auth' '--with-ca-bundle=/Applications/MAMP/Library/OpenSSL/cert.pem' 'CFLAGS=-arch x86_64' 'LDFLAGS=-arch x86_64'"
+        echo " '--prefix=/home/latfish/moodle/moodle/Library' '--with-ssl=/home/latfish/moodle/moodle/Library' '--with-zlib=/home/latfish/moodle/moodle/Library' '--with-libidn=/home/latfish/moodle/moodle/Library' '--enable-crypto-auth' '--with-ca-bundle=/home/latfish/moodle/moodle/Library/OpenSSL/cert.pem' 'CFLAGS=-arch x86_64' 'LDFLAGS=-arch x86_64'"
         ;;
 
     *)

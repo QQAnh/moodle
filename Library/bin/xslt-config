@@ -1,6 +1,6 @@
 #! /bin/sh
 
-prefix=/Applications/MAMP/Library
+prefix=/home/latfish/moodle/moodle/Library
 exec_prefix=${prefix}
 exec_prefix_set=no
 includedir=${prefix}/include
@@ -65,7 +65,7 @@ while test $# -gt 0; do
 	;;
 
     --plugins)
-	echo /Applications/MAMP/Library/lib/libxslt-plugins
+	echo /home/latfish/moodle/moodle/Library/lib/libxslt-plugins
 	exit 0
 	;;
 
@@ -89,11 +89,11 @@ while test $# -gt 0; do
     shift
 done
 
-the_libs="-L${libdir} -lxslt -L/Applications/MAMP/Library/lib -L/Applications/MAMP/Library/lib -lxml2 -lz -lpthread -L/Applications/MAMP/Library/lib -liconv -lm  "
+the_libs="-L${libdir} -lxslt -L/home/latfish/moodle/moodle/Library/lib -L/home/latfish/moodle/moodle/Library/lib -lxml2 -lz -lpthread -L/home/latfish/moodle/moodle/Library/lib -liconv -lm  "
 if test "$includedir" != "/usr/include"; then
-    the_flags="$the_flags -I$includedir `/Applications/MAMP/Library/bin/xml2-config --cflags`"
+    the_flags="$the_flags -I$includedir `/home/latfish/moodle/moodle/Library/bin/xml2-config --cflags`"
 else
-    the_flags="$the_flags `/Applications/MAMP/Library/bin/xml2-config --cflags`"
+    the_flags="$the_flags `/home/latfish/moodle/moodle/Library/bin/xml2-config --cflags`"
 fi
 
 if $cflags; then

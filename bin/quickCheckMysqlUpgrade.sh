@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/Applications/MAMP/Library/bin/mysqlcheck --quick --check-upgrade -u root -proot --socket=/Applications/MAMP/tmp/mysql/mysql.sock mysql
+/home/latfish/moodle/moodle/Library/bin/mysqlcheck --quick --check-upgrade -u root -proot --socket=/home/latfish/moodle/moodle/tmp/mysql/mysql.sock mysql

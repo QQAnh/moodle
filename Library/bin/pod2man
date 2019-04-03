@@ -1,5 +1,5 @@
-#!/Applications/MAMP/Library/bin/perl
-    eval 'exec /Applications/MAMP/Library/bin/perl -S $0 ${1+"$@"}'
+#!/home/latfish/moodle/moodle/Library/bin/perl
+    eval 'exec /home/latfish/moodle/moodle/Library/bin/perl -S $0 ${1+"$@"}'
         if $running_under_some_shell;
 
 # pod2man -- Convert POD data to formatted *roff input.

@@ -1,5 +1,5 @@
 <?php
-if ('/Applications/MAMP/bin/php/php7.0.15/lib/php' == '@'.'php_dir'.'@') {
+if ('/home/latfish/moodle/moodle/bin/php/php7.0.15/lib/php' == '@'.'php_dir'.'@') {
     // This package hasn't been installed.
     // Adjust path to ensure includes find files in working directory.
     set_include_path(dirname(dirname(__FILE__))

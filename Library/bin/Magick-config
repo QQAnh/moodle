@@ -4,7 +4,7 @@
 # required to use the MagickCore library.
 #
 
-prefix=/Applications/MAMP/Library
+prefix=/home/latfish/moodle/moodle/Library
 exec_prefix=${prefix}
 
 usage="\

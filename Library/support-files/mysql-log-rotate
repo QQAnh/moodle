@@ -4,7 +4,7 @@
 # follows:
 #
 # [mysqld]
-# log-error=/Applications/MAMP/db/mysql56/mysqld.log
+# log-error=/home/latfish/moodle/moodle/db/mysql56/mysqld.log
 #
 # In case the root user has a password, then you
 # have to create a /root/.my.cnf configuration file
@@ -19,7 +19,7 @@
 # ATTENTION: The /root/.my.cnf file should be readable
 # _ONLY_ by root !
 
-/Applications/MAMP/db/mysql56/mysqld.log {
+/home/latfish/moodle/moodle/db/mysql56/mysqld.log {
         # create 600 mysql mysql
         notifempty
         daily
@@ -28,10 +28,10 @@
         compress
     postrotate
 	# just if mysqld is really running
-	if test -x /Applications/MAMP/Library/bin/mysqladmin && \
-	   /Applications/MAMP/Library/bin/mysqladmin ping &>/dev/null
+	if test -x /home/latfish/moodle/moodle/Library/bin/mysqladmin && \
+	   /home/latfish/moodle/moodle/Library/bin/mysqladmin ping &>/dev/null
 	then
-	   /Applications/MAMP/Library/bin/mysqladmin flush-logs
+	   /home/latfish/moodle/moodle/Library/bin/mysqladmin flush-logs
 	fi
     endscript
 }

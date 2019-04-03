@@ -12,13 +12,13 @@
    | obtain it through the world-wide-web, please send a note to          |
    | license@php.net so we can mail you a copy immediately.               |
    +----------------------------------------------------------------------+
-   | Author: Stig Sæther Bakken <ssb@php.net>                             |
+   | Author: Stig Sï¿½ther Bakken <ssb@php.net>                             |
    +----------------------------------------------------------------------+
 */
 
 /* $Id$ */
 
-#define CONFIGURE_COMMAND " './configure'  '--with-gd' '--with-jpeg-dir=/Applications/MAMP/Library' '--with-png-dir=/Applications/MAMP/Library' '--with-zlib' '--with-zlib-dir=/Applications/MAMP/Library' '--with-freetype-dir=/Applications/MAMP/Library' '--prefix=/Applications/MAMP/bin/php/php7.0.15' '--exec-prefix=/Applications/MAMP/bin/php/php7.0.15' '--sysconfdir=/Applications/MAMP/bin/php/php7.0.15/conf' '--with-config-file-path=/Applications/MAMP/bin/php/php7.0.15/conf' '--enable-ftp' '--enable-gd-native-ttf' '--with-bz2=/Applications/MAMP/Library' '--with-ldap' '--with-mysqli=mysqlnd' '--enable-mbstring=all' '--with-curl=/Applications/MAMP/Library' '--enable-sockets' '--enable-bcmath' '--with-imap=shared,/Applications/MAMP/Library/lib/imap-2007f' '--with-imap-ssl=/Applications/MAMP/Library' '--enable-soap' '--with-kerberos' '--enable-calendar' '--with-pgsql=shared,/Applications/MAMP/Library/pg' '--enable-exif' '--with-libxml-dir=/Applications/MAMP/Library' '--with-gettext=shared,/Applications/MAMP/Library' '--with-xsl=/Applications/MAMP/Library' '--with-pdo-mysql=mysqlnd' '--with-pdo-pgsql=shared,/Applications/MAMP/Library/pg' '--with-mcrypt=shared,/Applications/MAMP/Library' '--with-openssl=/Applications/MAMP/Library' '--enable-zip' '--with-iconv=/Applications/MAMP/Library' '--enable-opcache' '--enable-cgi' '--enable-intl' '--with-tidy=shared' '--with-icu-dir=/Applications/MAMP/Library' '--enable-wddx' '--with-libexpat-dir=/Applications/MAMP/Library' '--with-readline' '--with-mhash' 'YACC=/Applications/MAMP/Library/bin/bison'"
+#define CONFIGURE_COMMAND " './configure'  '--with-gd' '--with-jpeg-dir=/home/latfish/moodle/moodle/Library' '--with-png-dir=/home/latfish/moodle/moodle/Library' '--with-zlib' '--with-zlib-dir=/home/latfish/moodle/moodle/Library' '--with-freetype-dir=/home/latfish/moodle/moodle/Library' '--prefix=/home/latfish/moodle/moodle/bin/php/php7.0.15' '--exec-prefix=/home/latfish/moodle/moodle/bin/php/php7.0.15' '--sysconfdir=/home/latfish/moodle/moodle/bin/php/php7.0.15/conf' '--with-config-file-path=/home/latfish/moodle/moodle/bin/php/php7.0.15/conf' '--enable-ftp' '--enable-gd-native-ttf' '--with-bz2=/home/latfish/moodle/moodle/Library' '--with-ldap' '--with-mysqli=mysqlnd' '--enable-mbstring=all' '--with-curl=/home/latfish/moodle/moodle/Library' '--enable-sockets' '--enable-bcmath' '--with-imap=shared,/home/latfish/moodle/moodle/Library/lib/imap-2007f' '--with-imap-ssl=/home/latfish/moodle/moodle/Library' '--enable-soap' '--with-kerberos' '--enable-calendar' '--with-pgsql=shared,/home/latfish/moodle/moodle/Library/pg' '--enable-exif' '--with-libxml-dir=/home/latfish/moodle/moodle/Library' '--with-gettext=shared,/home/latfish/moodle/moodle/Library' '--with-xsl=/home/latfish/moodle/moodle/Library' '--with-pdo-mysql=mysqlnd' '--with-pdo-pgsql=shared,/home/latfish/moodle/moodle/Library/pg' '--with-mcrypt=shared,/home/latfish/moodle/moodle/Library' '--with-openssl=/home/latfish/moodle/moodle/Library' '--enable-zip' '--with-iconv=/home/latfish/moodle/moodle/Library' '--enable-opcache' '--enable-cgi' '--enable-intl' '--with-tidy=shared' '--with-icu-dir=/home/latfish/moodle/moodle/Library' '--enable-wddx' '--with-libexpat-dir=/home/latfish/moodle/moodle/Library' '--with-readline' '--with-mhash' 'YACC=/home/latfish/moodle/moodle/Library/bin/bison'"
 #define PHP_ADA_INCLUDE		""
 #define PHP_ADA_LFLAGS		""
 #define PHP_ADA_LIBS		""
@@ -75,17 +75,17 @@
 #define PHP_LDAP_LIBS		""
 #define PHP_BIRDSTEP_INCLUDE     ""
 #define PHP_BIRDSTEP_LIBS        ""
-#define PEAR_INSTALLDIR         "/Applications/MAMP/bin/php/php7.0.15/lib/php"
-#define PHP_INCLUDE_PATH	".:/Applications/MAMP/bin/php/php7.0.15/lib/php"
-#define PHP_EXTENSION_DIR       "/Applications/MAMP/bin/php/php7.0.15/lib/php/extensions/no-debug-non-zts-20151012"
-#define PHP_PREFIX              "/Applications/MAMP/bin/php/php7.0.15"
-#define PHP_BINDIR              "/Applications/MAMP/bin/php/php7.0.15/bin"
-#define PHP_SBINDIR             "/Applications/MAMP/bin/php/php7.0.15/sbin"
-#define PHP_MANDIR              "/Applications/MAMP/bin/php/php7.0.15/php/man"
-#define PHP_LIBDIR              "/Applications/MAMP/bin/php/php7.0.15/lib/php"
-#define PHP_DATADIR             "/Applications/MAMP/bin/php/php7.0.15/share/php"
-#define PHP_SYSCONFDIR          "/Applications/MAMP/bin/php/php7.0.15/conf"
-#define PHP_LOCALSTATEDIR       "/Applications/MAMP/bin/php/php7.0.15/var"
-#define PHP_CONFIG_FILE_PATH    "/Applications/MAMP/bin/php/php7.0.15/conf"
+#define PEAR_INSTALLDIR         "/home/latfish/moodle/moodle/bin/php/php7.0.15/lib/php"
+#define PHP_INCLUDE_PATH	".:/home/latfish/moodle/moodle/bin/php/php7.0.15/lib/php"
+#define PHP_EXTENSION_DIR       "/home/latfish/moodle/moodle/bin/php/php7.0.15/lib/php/extensions/no-debug-non-zts-20151012"
+#define PHP_PREFIX              "/home/latfish/moodle/moodle/bin/php/php7.0.15"
+#define PHP_BINDIR              "/home/latfish/moodle/moodle/bin/php/php7.0.15/bin"
+#define PHP_SBINDIR             "/home/latfish/moodle/moodle/bin/php/php7.0.15/sbin"
+#define PHP_MANDIR              "/home/latfish/moodle/moodle/bin/php/php7.0.15/php/man"
+#define PHP_LIBDIR              "/home/latfish/moodle/moodle/bin/php/php7.0.15/lib/php"
+#define PHP_DATADIR             "/home/latfish/moodle/moodle/bin/php/php7.0.15/share/php"
+#define PHP_SYSCONFDIR          "/home/latfish/moodle/moodle/bin/php/php7.0.15/conf"
+#define PHP_LOCALSTATEDIR       "/home/latfish/moodle/moodle/bin/php/php7.0.15/var"
+#define PHP_CONFIG_FILE_PATH    "/home/latfish/moodle/moodle/bin/php/php7.0.15/conf"
 #define PHP_CONFIG_FILE_SCAN_DIR    ""
 #define PHP_SHLIB_SUFFIX        "so"

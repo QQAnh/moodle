@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/Applications/MAMP/Library/bin/apachectl stop 
+/home/latfish/moodle/moodle/Library/bin/apachectl stop

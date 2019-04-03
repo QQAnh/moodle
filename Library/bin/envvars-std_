@@ -19,9 +19,9 @@
 # This file is generated from envvars-std.in
 #
 if test "x$DYLD_LIBRARY_PATH" != "x" ; then
-  DYLD_LIBRARY_PATH="/Applications/MAMP/Library/lib:$DYLD_LIBRARY_PATH"
+  DYLD_LIBRARY_PATH="/home/latfish/moodle/moodle/Library/lib:$DYLD_LIBRARY_PATH"
 else
-  DYLD_LIBRARY_PATH="/Applications/MAMP/Library/lib"
+  DYLD_LIBRARY_PATH="/home/latfish/moodle/moodle/Library/lib"
 fi
 export DYLD_LIBRARY_PATH
 #

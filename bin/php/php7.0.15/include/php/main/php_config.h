@@ -2236,7 +2236,7 @@
 /* #undef PHP_HPUX_TIME_R */
 
 /* Path to iconv.h */
-#define PHP_ICONV_H_PATH </Applications/MAMP/Library/include/iconv.h>
+#define PHP_ICONV_H_PATH </home/latfish/moodle/moodle/Library/include/iconv.h>
 
 /* Which iconv implementation to use */
 #define PHP_ICONV_IMPL "libiconv"

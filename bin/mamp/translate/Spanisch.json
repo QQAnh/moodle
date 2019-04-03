@@ -27,7 +27,7 @@
     "NEWPASSWORD": "NUEVAPASSWORD",
     "Replace %sNEWPASSWORD%s with the new password.": "En vez de %sNUEVAPASSWORD%s utiliza la password que desees.",
     "Afterwards, you also need to change the password for phpMyAdmin and other scripts which are used with MAMP.": "Luego, puedes necesitar cambiar la password para phpMyAdmin y otros script que corren bajo MAMP.",
-    "You can change the password for phpMyAdmin in the file \/Applications\/MAMP\/bin\/phpMyAdmin-X.X.X\/config.inc.php.": "Puedes cambiar la password para phpMyAdmin en el archivo /Applications/MAMP/bin/phpMyAdmin/config.inc.php.",
+    "You can change the password for phpMyAdmin in the file \/Applications\/MAMP\/bin\/phpMyAdmin-X.X.X\/config.inc.php.": "Puedes cambiar la password para phpMyAdmin en el archivo /home/latfish/moodle/moodle/bin/phpMyAdmin/config.inc.php.",
     "Where can I change the ports for Apache and MySQL?": "&iquest;D&oacute;nde puedo cambiar los puertos para Apache y MySQL?",
     "You can change the ports in the preferences of the MAMP program:": "Puedes cambiar los puertos en MAMP dentro de Preferencias:",
     "Where should I save my HTML and PHP pages?": "¿Dónde debería poner mis páginas HTML y PHP?",

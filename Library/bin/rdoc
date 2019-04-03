@@ -1,4 +1,4 @@
-#!/Applications/MAMP/Library/bin/ruby
+#!/home/latfish/moodle/moodle/Library/bin/ruby
 #
 #  RDoc: Documentation tool for source code
 #        (see lib/rdoc/rdoc.rb for more information)

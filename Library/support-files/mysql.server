@@ -25,7 +25,7 @@
 # Description: MySQL is a very fast and reliable SQL database engine.
 ### END INIT INFO
  
-# If you install MySQL on some other places than /Applications/MAMP/Library, then you
+# If you install MySQL on some other places than /home/latfish/moodle/moodle/Library, then you
 # have to do one of the following things for this script to work:
 #
 # - Run this script from within the MySQL installation directory
@@ -63,14 +63,14 @@ lock_file_path="$lockdir/mysql"
 mysqld_pid_file_path=
 if test -z "$basedir"
 then
-  basedir=/Applications/MAMP/Library
-  bindir=/Applications/MAMP/Library/bin
+  basedir=/home/latfish/moodle/moodle/Library
+  bindir=/home/latfish/moodle/moodle/Library/bin
   if test -z "$datadir"
   then
-    datadir=/Applications/MAMP/db/mysql56
+    datadir=/home/latfish/moodle/moodle/db/mysql56
   fi
-  sbindir=/Applications/MAMP/Library/bin
-  libexecdir=/Applications/MAMP/Library/bin
+  sbindir=/home/latfish/moodle/moodle/Library/bin
+  libexecdir=/home/latfish/moodle/moodle/Library/bin
 else
   bindir="$basedir/bin"
   if test -z "$datadir"

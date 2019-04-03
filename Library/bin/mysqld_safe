@@ -393,17 +393,17 @@ set_malloc_lib() {
 # First, try to find BASEDIR and ledir (where mysqld is)
 #
 
-if echo '/Applications/MAMP/Library/share' | grep '^/Applications/MAMP/Library' > /dev/null
+if echo '/home/latfish/moodle/moodle/Library/share' | grep '^/home/latfish/moodle/moodle/Library' > /dev/null
 then
-  relpkgdata=`echo '/Applications/MAMP/Library/share' | sed -e 's,^/Applications/MAMP/Library,,' -e 's,^/,,' -e 's,^,./,'`
+  relpkgdata=`echo '/home/latfish/moodle/moodle/Library/share' | sed -e 's,^/home/latfish/moodle/moodle/Library,,' -e 's,^/,,' -e 's,^,./,'`
 else
   # pkgdatadir is not relative to prefix
-  relpkgdata='/Applications/MAMP/Library/share'
+  relpkgdata='/home/latfish/moodle/moodle/Library/share'
 fi
 
 case "$0" in
   /*)
-  MY_PWD='/Applications/MAMP/Library'
+  MY_PWD='/home/latfish/moodle/moodle/Library'
   ;;
   *)
   MY_PWD=`dirname $0`
@@ -440,8 +440,8 @@ then
   ledir="$MY_PWD/sbin"			# Where mysqld is
 # Since we didn't find anything, used the compiled-in defaults
 else
-  MY_BASEDIR_VERSION='/Applications/MAMP/Library'
-  ledir='/Applications/MAMP/Library/bin'
+  MY_BASEDIR_VERSION='/home/latfish/moodle/moodle/Library'
+  ledir='/home/latfish/moodle/moodle/Library/bin'
 fi
 
 
@@ -463,7 +463,7 @@ then
   DATADIR=$MY_BASEDIR_VERSION/var
 # Or just give up and use our compiled-in default
 else
-  DATADIR=/Applications/MAMP/db/mysql56
+  DATADIR=/home/latfish/moodle/moodle/db/mysql56
 fi
 
 if test -z "$MYSQL_HOME"
@@ -500,12 +500,12 @@ then
 elif test -x ./bin/my_print_defaults
 then
   print_defaults="./bin/my_print_defaults"
-elif test -x /Applications/MAMP/Library/bin/my_print_defaults
+elif test -x /home/latfish/moodle/moodle/Library/bin/my_print_defaults
 then
-  print_defaults="/Applications/MAMP/Library/bin/my_print_defaults"
-elif test -x /Applications/MAMP/Library/bin/mysql_print_defaults
+  print_defaults="/home/latfish/moodle/moodle/Library/bin/my_print_defaults"
+elif test -x /home/latfish/moodle/moodle/Library/bin/mysql_print_defaults
 then
-  print_defaults="/Applications/MAMP/Library/bin/mysql_print_defaults"
+  print_defaults="/home/latfish/moodle/moodle/Library/bin/mysql_print_defaults"
 else
   print_defaults="my_print_defaults"
 fi
@@ -544,7 +544,7 @@ else
   done
   # Give up and use compiled-in default
   if [ -z "${plugin_dir}" ]; then
-    plugin_dir='/Applications/MAMP/Library/lib/plugin'
+    plugin_dir='/home/latfish/moodle/moodle/Library/lib/plugin'
   fi
 fi
 plugin_dir="${plugin_dir}${PLUGIN_VARIANT}"
@@ -670,7 +670,7 @@ then
   append_arg_to_args "--open-files-limit=$open_files"
 fi
 
-safe_mysql_unix_port=${mysql_unix_port:-${MYSQL_UNIX_PORT:-/Applications/MAMP/tmp/mysql/mysql.sock}}
+safe_mysql_unix_port=${mysql_unix_port:-${MYSQL_UNIX_PORT:-/home/latfish/moodle/moodle/tmp/mysql/mysql.sock}}
 # Check that directory for $safe_mysql_unix_port exists
 mysql_unix_port_dir=`dirname $safe_mysql_unix_port`
 if [ ! -d $mysql_unix_port_dir ]

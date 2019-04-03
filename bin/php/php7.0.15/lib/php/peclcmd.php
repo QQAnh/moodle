@@ -20,8 +20,8 @@
  */
 //the space is needed for windows include paths with trailing backslash
 // http://pear.php.net/bugs/bug.php?id=19482
-if ('/Applications/MAMP/bin/php/php7.0.15/lib/php ' != '@'.'include_path'.'@ ') {
-    ini_set('include_path', trim('/Applications/MAMP/bin/php/php7.0.15/lib/php '). PATH_SEPARATOR .  get_include_path());
+if ('/home/latfish/moodle/moodle/bin/php/php7.0.15/lib/php ' != '@'.'include_path'.'@ ') {
+    ini_set('include_path', trim('/home/latfish/moodle/moodle/bin/php/php7.0.15/lib/php '). PATH_SEPARATOR .  get_include_path());
     $raw = false;
 } else {
     // this is a raw, uninstalled pear, either a cvs checkout, or php distro

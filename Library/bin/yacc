@@ -1,2 +1,2 @@
 #! /bin/sh
-exec '/Applications/MAMP/Library/bin/bison' -y "$@"
+exec '/home/latfish/moodle/moodle/Library/bin/bison' -y "$@"

@@ -36,7 +36,7 @@ else
 {
 	if ($configObject->app == "MAMP")
 	{
-		include_once('/Applications/MAMP/bin/phpMyAdmin/config.inc.php');
+		include_once('/home/latfish/moodle/moodle/bin/phpMyAdmin/config.inc.php');
 	}
 	else 
 	{
@@ -284,7 +284,7 @@ else
 							</tr>
 							<tr>
 								<th><?php echo tr("Socket"); ?></th>
-								<td>/Applications/MAMP/tmp/mysql/mysql.sock</td>
+								<td>/home/latfish/moodle/moodle/tmp/mysql/mysql.sock</td>
 							</tr>
 						</table>
 
@@ -326,7 +326,7 @@ $db_selected = mysql_select_db(
 $user = '<?php echo $cfg['Servers'][1]['user']; ?>';
 $password = '<?php echo $cfg['Servers'][1]['password']; ?>';
 $db = 'inventory';
-$socket = 'localhost:/Applications/MAMP/tmp/mysql/mysql.sock';
+$socket = 'localhost:/home/latfish/moodle/moodle/tmp/mysql/mysql.sock';
 
 $link = mysql_connect(
    $socket, 
@@ -371,7 +371,7 @@ $password = '<?php echo $cfg['Servers'][1]['password']; ?>';
 $db = 'inventory';
 $host = '127.0.0.1';
 $port = <?php echo $cfg['Servers'][1]['port'] ? $cfg['Servers'][1]['port'] : 3306 ?>;
-$socket = 'localhost:/Applications/MAMP/tmp/mysql/mysql.sock';
+$socket = 'localhost:/home/latfish/moodle/moodle/tmp/mysql/mysql.sock';
 
 $link = mysqli_init();
 $success = mysqli_real_connect(

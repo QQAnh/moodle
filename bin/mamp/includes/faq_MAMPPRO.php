@@ -22,7 +22,7 @@
                                 <?php echo tr("You can apply necessary changes in the Finder using the Information dialog or in the application &quot;Terminal&quot; using the commands <code>chown</code> and <code>chmod</code>."); ?>
                             </dd>
                             <dt><?php echo tr("Where should I save my HTML and PHP pages?"); ?></dt>
-                            <dd><?php echo tr("By default, PHP and HTML Pages should be copied to the htdocs folder which is located in /Applications/MAMP."); ?>
+                            <dd><?php echo tr("By default, PHP and HTML Pages should be copied to the htdocs folder which is located in /home/latfish/moodle/moodle."); ?>
                                 <?php echo tr("This folder is called &quot;Document Root&quot;."); ?>
                                 <?php echo tr("You can change the path for the Document Root folder in the hosts section of MAMP PRO:"); ?><br/>
                                 <br/>
