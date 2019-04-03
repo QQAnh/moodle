@@ -18,8 +18,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://localhost:8888/moodle36';
-// $CFG->wwwroot   = 'http://869adae6.ngrok.io/moodle36';
+//$CFG->wwwroot   = 'http://localhost:8888/moodle36';
+ $CFG->wwwroot   = 'http://d12a3ecb.ngrok.io/moodle36';
 $CFG->dataroot  = '/home/latfish/moodle/moodle/data/moodle36';
 $CFG->admin     = 'admin';
 
