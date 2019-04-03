@@ -1,0 +1,6 @@
+s:322:"<p>Bạn có thể tìm kiếm nhiều từ cùng lúc và chắt lọc kết quả tìm kiếm như sau:</p>
+
+<ul><li>word - tìm bất cứ từ nào khớp từ này trong đoạn văn.</li>
+<li>+word - chỉ tìm các từ khớp chính xác.</li>
+<li>-word - không lấy các kết quả chứa từ này.</li>
+</ul>";
